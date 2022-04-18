@@ -1,0 +1,13 @@
+Write a function to count number of nodes in a given single linked list
+Sol: void display()
+{
+struct node*ptr;
+int count=0;
+ptr=start;
+while(ptr!=NULL)
+{
+count=count++1; or count++;
+ptr=ptr->next;
+}
+printf("count=%d","count");
+}
